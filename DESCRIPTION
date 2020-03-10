@@ -1,0 +1,10 @@
+Package: HomologSearch
+Type: Package
+Title: Package for identic genes from model and nonmodel organism searching.
+Version: 0.1.0
+Author: Jana Musilova
+Maintainer: Jana Musilova <musilovajana@feec.vutbr.cz>
+Description: The package computes the similarity between two sequences in the fasta files. The similarity is based on the BLAST method. It uses rBLAST package to create a local databse from model organism sequence and subsequently to blast (find similar genes/proteins/sequences) non-model organism seqeunce to local database (model organism sequence). Finally the tool selects the most similar genes/proteins/sequences and save locus tags and genes (if available) into the output .csv file.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
